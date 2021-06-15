@@ -1,7 +1,7 @@
 # Kickstarting with Excel
 
 ## Overview of Project
-This project utilizes Microsoft Excel tools to evaluate the success or failure of Kickstarter campaigns for Louise's play "Fever". Specifically, the project analyzes the correlation between goal amounts and outcomes (i.e. success or failure), and launch dates and outcomes.
+This project utilizes Microsoft Excel tools to evaluate the success or failure of Kickstarter campaigns for Louise's play "Fever". Specifically, the project analyzes data correlation in a large data set between goal amounts and outcomes (i.e. success or failure), and launch dates and outcomes.
 
 ## Analysis and Challenges
 In order to perform the analysis, a pivot table and line graph were created to visually represent and more easily compare the correlations.  
