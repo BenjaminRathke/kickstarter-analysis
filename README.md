@@ -11,11 +11,11 @@ A pivot table was created in order to easily arrange data and filter to appropri
 #### Outcomes vs. Months Pivot Table
 ![Outcomes Based on Month Pivot Table](resources/Outcomes_Launch_Pivot.PNG)
 
-
+### Outcomes vs. Goals
 A standard table utilizing the COUNTIFS function was used to filter the appropriate data, and easily create a line graph to illustrate success or failure based on goal amounts and outcomes.  
-### An example "COUNTIFS" formula:  
+#### An example "COUNTIFS" formula:  
 =COUNTIFS(Kickstarter!$F:$F,"successful",Kickstarter!$D:$D,">=1000",Kickstarter!$D:$D,"<=4999",Kickstarter!$R:$R,"plays")
-### Outcomes vs. Goals Table
+#### Outcomes vs. Goals Table
 ![Outcomes Based on Goals Table](resources/Outcomes_Goals_Table.PNG)
 
 By doing so, we can easily and quickly view the potential correlations between success (or the lackthereof) and campaign start months 
