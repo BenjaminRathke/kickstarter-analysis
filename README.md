@@ -25,10 +25,10 @@ Possible other issues that could (but did not) occur include accidentally changi
 
 ### Analysis of Outcomes Based on Launch Date
 ![Outcomes vs. Launch](resources/Theater_Outcomes_vs_Launch.png)
-The number of successful and failed campaigns are highest in the month of May.  Successful campaigns decrease steadily throughout the year and failed campaigns stay relatively constant. 
+The number of successful and failed campaigns are highest in the month of May.  Failures spike to their second highest number in October.  Successful campaigns decrease steadily throughout the year and failed campaigns stay relatively constant. 
 
 ### Analysis of Outcomes Based on Goals
-![Outcomes vs. Launch]()
+![Outcomes vs. Goals](resources/Outcomes_vs_Goals.png)
 
 ### Challenges and Difficulties Encountered
 
