@@ -7,7 +7,8 @@ This project utilizes Microsoft Excel tools to evaluate the success or failure o
 In order to perform the analysis, a pivot table and line graph were created to visually represent and more easily compare the correlations.  
 
 
-A pivot table was created in order to easily arrange data and filter to appropriate years and categories for launch months and outcomes. For the purposes of this project we have filtered categories to "theater," "all" years, and display all months. 
+A pivot table was created in order to easily arrange data and filter to appropriate years and categories for launch months and outcomes. For the purposes of this project, categories were filtered to "theater," "all" years, and display data for all months. 
+![Outcomes Based on Goals Table](resources/Outcomes_Goals_Table.PNG)
 
 A standard table utilizing the COUNTIFS function was used to filter the appropriate data, and easily create a line graph to illustrate success or failure based on goal amounts and outcomes.  
 
