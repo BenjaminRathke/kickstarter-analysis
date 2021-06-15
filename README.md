@@ -29,15 +29,7 @@ The number of successful and failed campaigns are highest in the month of May.  
 
 ### Analysis of Outcomes Based on Goals
 ![Outcomes vs. Goals](resources/Outcomes_vs_Goals.png)
+Unsurprisingly, campaigns with goals of less than $1000 have the highest rate of success.  Again unsurprisingly, failure rates increase until campaigns between $15,000 and $19,999 have an almost equal chance of success and failure, with higher amounts understandably continuing to have higher rates of failure than success.  Interestingly, campaigns with goals of $35,0000 to $44999 are more likely to be successful before returning to the expected trend after the $50,000 goal mark.
 
-### Challenges and Difficulties Encountered
-
-## Results
-
-- What are two conclusions you can draw about the Outcomes based on Launch Date?
-
-- What can you conclude about the Outcomes based on Goals?
-
-- What are some limitations of this dataset?
-
-- What are some other possible tables and/or graphs that we could create?
+### Limitations of the Data Set
+The data set that was chosen to analyze Outcomes Based on Launch Date includes all theater categories.  This data set would be more relevant to Louise's play if the data was filtered to the "play" subcategory alone, as we did with the Outcomes Based on Goals analysis.  There were likely statistical outliers skewing the Outcomes Based on Goals data as well.  Adusting our analysis once these outliers are determined with a box-and-whisker-plot graph and removed from the data set would make the data far more useful. Finally, while percentages are helpful, relatively small numbers of total data points may mean there isn't enough data to appropriately analyze (there are only 20 data points total beyond a $35,000 goal).  Some of these may be considered outliers; we may also investigate the standard deviations of these very large and very small data points.
