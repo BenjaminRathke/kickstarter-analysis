@@ -9,7 +9,7 @@ In order to perform the analysis, a pivot table and line graph were created to v
 
 A pivot table was created in order to easily arrange data and filter to appropriate years and categories for launch months and outcomes. For the purposes of this project, categories were filtered to "theater," "all" years, and display data for all months. 
 
-### Outcomes vs. Months Table
+### Outcomes vs. Months Pivot Table
 ![Outcomes Based on Month Pivot Table](resources/Outcomes_Launch_Pivot.PNG)
 
 
