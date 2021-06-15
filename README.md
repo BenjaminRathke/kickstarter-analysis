@@ -7,18 +7,21 @@ This project utilizes Microsoft Excel tools to evaluate the success or failure o
 In order to perform the analysis, a pivot table and line graph were created to visually represent and more easily compare the correlations.  
 
 ### Outcomes vs. Months
-A pivot table was created in order to easily arrange data and filter to appropriate years and categories for launch months and outcomes. For the purposes of this project, categories were filtered to "theater," "all" years, and display data for all months. 
+A pivot table was created in order to easily arrange data and filter to appropriate years and categories for launch months and outcomes. For the purposes of this project, categories were filtered to "theater," "all" years, and display data for all months. By doing so, we might easily and quickly view the potential correlations between success (or the lackthereof) and campaign start months.
 #### Outcomes vs. Months Pivot Table
 ![Outcomes Based on Month Pivot Table](resources/Outcomes_Launch_Pivot.PNG)
 
 ### Outcomes vs. Goals
-A standard table utilizing the COUNTIFS function was used to filter the appropriate data, and easily create a line graph to illustrate success or failure based on goal amounts and outcomes.  
+A standard table utilizing the COUNTIFS function was used to filter the appropriate data, and easily create a line graph to illustrate success or failure based on goal amounts and outcomes.  By doing so, we might easily and quickly view the potential correlations between success (or the lackthereof) and goal amounts.
 #### An example "COUNTIFS" formula:  
 =COUNTIFS(Kickstarter!$F:$F,"successful",Kickstarter!$D:$D,">=1000",Kickstarter!$D:$D,"<=4999",Kickstarter!$R:$R,"plays")
 #### Outcomes vs. Goals Table
 ![Outcomes Based on Goals Table](resources/Outcomes_Goals_Table.PNG)
 
-By doing so, we can easily and quickly view the potential correlations between success (or the lackthereof) and campaign start months 
+### Challenges
+Few challenges were encountered.  One notable exception was in the copying of cell formulae in the percentage columns to other columns for the Outcomes Based on Goals table.  the "$" operator was inappropriately used to reference the denominator, thus locking the referenced cell inappropriately for all percentage values.  Removing and re-replicating the formula fixed the problem immediately.
+
+Possible other issues that could (but did not occur) include accidentally changing data values in the original sheet, accidentally referencing wrong cells or columns in the data, 
 
 ### Analysis of Outcomes Based on Launch Date
 
