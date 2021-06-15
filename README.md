@@ -21,12 +21,14 @@ A standard table utilizing the COUNTIFS function was used to filter the appropri
 ### Challenges
 Few challenges were encountered.  One notable exception was in the copying of cell formulae in the percentage columns to other columns for the Outcomes Based on Goals table.  the "$" operator was inappropriately used to reference the denominator, thus locking the referenced cell inappropriately for all percentage values.  Removing and re-replicating the formula fixed the problem immediately.
 
-Possible other issues that could (but did not) occur include accidentally changing data values in the original data set, accidentally referencing wrong cells or columns in the data, a 0% cancelled result for all monetary ranges in the Outcomes vs. Goals table may have caused confusion and caution, but a quick verification of the results upheld them.
+Possible other issues that could (but did not) occur include accidentally changing data values in the original data set, accidentally referencing wrong cells or columns in the data, a 0% cancelled result for all monetary ranges in the Outcomes vs. Goals table may have caused confusion and caution, but a quick verification of the results upheld the 0% results.
 
 ### Analysis of Outcomes Based on Launch Date
-![Outcomes Based on Month Pivot Table]()
+![Outcomes vs. Launch](resources/Theater_Outcomes_vs_Launch.png)
+The number of successful and failed campaigns are highest in the month of May.  Successful campaigns decrease steadily throughout the year and failed campaigns stay relatively constant. 
 
 ### Analysis of Outcomes Based on Goals
+![Outcomes vs. Launch]()
 
 ### Challenges and Difficulties Encountered
 
