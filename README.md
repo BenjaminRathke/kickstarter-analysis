@@ -8,13 +8,11 @@ In order to perform the analysis, a pivot table and line graph were created to v
 
 
 A pivot table was created in order to easily arrange data and filter to appropriate years and categories for launch months and outcomes. For the purposes of this project, categories were filtered to "theater," "all" years, and display data for all months. 
-
 ### Outcomes vs. Months Pivot Table
 ![Outcomes Based on Month Pivot Table](resources/Outcomes_Launch_Pivot.PNG)
 
 
 A standard table utilizing the COUNTIFS function was used to filter the appropriate data, and easily create a line graph to illustrate success or failure based on goal amounts and outcomes.  
-
 ### An example "COUNTIFS" formula:  
 =COUNTIFS(Kickstarter!$F:$F,"successful",Kickstarter!$D:$D,">=1000",Kickstarter!$D:$D,"<=4999",Kickstarter!$R:$R,"plays")
 ### Outcomes vs. Goals Table
